@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    height: 50px;
+    
+}
+.logo{
+    color: white;
+}
+span{
+    color: yellow;
+    font-weight: 600;
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+   
+}
+.search{
+    padding: 8px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+}
+#search{
+    color:  #2874f0;
+}
+.loginbtn{
+    padding: 8px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #2874f0;
+   
+}
+.navlink{
+ margin: 0px 20px;
+ text-decoration: none;
+ font-size: 17px;
+ color: white;
+
+}
+.angle{
+    font-size: 5px;
+}
+.bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    
+
+}
+.navprod{
+width: 80px;
+height: 110px;
+
+}
+.navprod img{
+    width: 70px;
+    height: 70px;
+}
+.navprod p{
+    font-weight: 600;
+}
+.photo{
+    margin: 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+.box img{
+    padding: 5px 10px;
+    height: 225px;
+    width: 225px;
+}
+h3{
+    color: green;
+}
